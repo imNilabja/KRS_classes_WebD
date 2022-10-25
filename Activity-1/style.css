@@ -1,0 +1,24 @@
+.container{
+    width: 800px;
+    height: 500px;
+    border: 2px solid black;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.image{
+    width: 120px;
+    height: 160px;
+margin-top: 25px;
+margin-left: 25px;
+border: 2px solid black;
+
+}
+
+.intro{
+    width: 500px;
+    height: 150px;
+    position: relative;
+margin-left: 200px;
+margin-top: -140px;
+}
