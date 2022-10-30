@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Fira+Sans&family=Moon+Dance&family=Oswald:wght@700&family=Poppins&family=Rubik&family=Source+Code+Pro:wght@300&display=swap');
+
+
+
+.body {
+    background-color: #181818;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    left: 50px;
+    margin-top: 20px;
+}
+
+.button a {
+    font-style: none;
+    color: aliceblue;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.Login {
+    position: relative;
+    left: 100px;
+    top: -10px;
+    background-color: #181818;
+    border: 0.3px solid white;
+    position: relative;
+    font-size: 15px;
+    font-style: none;
+    padding: 5px 50px 5px 50px;
+
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    z-index: -10px;
+}
+
+
+.content{
+    position: relative;
+    top: 40px;
+    left: 370px;
+    height: auto;
+    width: 620px;
+}
+
+.content h1{
+    font-size: 65px;
+    color: white;
+   justify-content: space-around;
+   font-family: "Poppins", sans-serif;
+   text-align: center;
+
+}
+
+.para{
+    position: relative;
+    color: white;
+font: 25px;   
+height: 200px;
+width: 340px; 
+text-align: center;
+left: 500px;
+top: 95px;
+line-height: 22px;
+
+}
+
+.try_For_Free{
+    background-color: blue;
+    padding: 15px 50px 15px 50px;
+    cursor: pointer;
+    position: relative;
+    left: 110px;
+    top:0px;
+
+
+}
+
+.try_for_free a{
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.footButton{
+
+    display: flex;
+}
+
+.navbar1 {
+    display: flex;
+    position: relative;
+    left: 370px;
+    margin-top: 20px;
+    top: 20px;
+}
+
+.learnMore
+{  background-color: rgb(0, 0, 0);
+    padding: 15px 50px 15px 50px;
+    cursor: pointer;
+    position: relative;
+    left: 110px;
+    margin-left: 50px;
+    border: 0.1px solid white;
+    top:0px;
+}
+
+.learnMore a{
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+
+}
