@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Fira+Sans&family=Moon+Dance&family=Oswald:wght@700&family=Poppins&family=Rubik&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Fira+Sans&family=Moon+Dance&family=Oswald:wght@700&family=Poppins&family=Rubik&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Fira+Sans&family=Moon+Dance&family=Oswald:wght@700&family=Poppins&family=Rubik&family=Source+Code+Pro:wght@300&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  padding-right: -500px;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  overflow-y:scroll;
+}
+
+
+.li,
+a,
+button {
+
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+.header {
+  position: relative;
+  top: -40px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+
+  z-index: -20px;
+}
+
+.logo {
+  position: relative;
+  left: -90px;
+  cursor: pointer;
+
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+  position: relative;
+  left: 140px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800px;
+
+}
+
+button {
+  position: relative;
+  left: 20px;
+  padding: 9px 30px;
+  background-color: white;
+  border: 1px solid #60BA62;
+  border-radius: 30px;
+  cursor: pointer;
+
+
+}
+
+.home_image {
+
+  position: relative;
+  top: -80px;
+  width: 100%;
+  height: 600px;
+  box-shadow: grey;
+}
+
+
+
+.headline p {
+  font-size: 50px;
+  width: 350px;
+  height: 200px;
+  position: relative;
+  padding-bottom: -30px;
+  top: -650px;
+  left: 100px;
+  z-index: -20px;
+  text-align: left;
+
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.green_word {
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  color: #60BA62;
+}
+
+.headline-2 {
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  width: 350px;
+  top: -945px;
+  left: 100px;
+  text-align: left;
+}
+
+.login {
+  position: relative;
+  border-radius: 0px;
+  background-color: #60BA62;
+  bottom: 900px;
+  left: 100px;
+  padding: 10px 35px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.price_chart {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 600px;
+
+}
+
+.price_chart div {
+
+  justify-content: center;
+  padding: 200px 50px;
+  margin: 0px 15px;
+}
+
+.chart1 {
+  position: relative;
+  border: 1px solid #60BA62;
+  left: 55px;
+}
+
+.chart2 {
+  position: relative;
+  border: 1px solid #F7CA19;
+}
+
+.chart3 {
+  position: relative;
+  border: 1px solid #60BA62;
+  right: 55px;
+}
+
+
+.test_day{
+  position: relative;
+  top: -160px;
+font-size: 20px;
+font-family: 'Poppins', sans-serif;
+}
+
+.price{
+  position: relative;
+  font-size: 60px;
+  color: #60BA62;
+  top: -140px;
+  font-weight: bolder;
+
+}
+
+.per_day{
+  position: relative;
+  font-size: 25px;
+  color: #60BA62;
+  top: -140px;
+  font-weight: 200;
+}
+
+.chart1 p{
+  justify-content: center;
+  text-align: center;
+}
+
+.chart2 p{
+  justify-content: center;
+  text-align: center;
+}
+
+.chart3 p{
+  justify-content: center;
+  text-align: center;
+}
+
+.content{
+  position: relative;
+  top: -60px;
+  font-size: 19px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.white_space{
+  position: relative;
+  background-color:white;
+  height: 200px;
+  top: -800px;
+}
+.footer1{
+  
+  position: relative;
+  top: -900px;
+  height: 130px;
+  display: flex;
+}
+ .footer ul{
+  display: inline-block;
+  margin:30px 40px;
+  position: relative;
+  left: 250px;
+ }
+
+.footer1{
+  background-color: #60BA62;
+}
+
+.footer2 {
+  position: relative;
+  top: -900px;
+  background-color: #429C44;
+  height: 70px;
+  justify-content: center;
+}
+
+.footer ul li{
+  margin: 5px 0px ;
+  color: white;
+}
+
+
+.footer ul li a{
+  color: white;
+font-size: 15px;
+}
+
+.footer2 p{
+  position: relative;
+  justify-content: center;
+  color: white;
+  font-size: 19px;
+  left: 500px;
+  top: 25px;
+  font-family: 'Dongle', sans-serif;
+}
+
+.social_icons ul{
+  display: flex;
+  position: relative;
+  top: -1050px;
+  left: 1100px;
+
+}
+.social_icons ul li{
+  margin: 10px 10px;
+}
+
+
+.social_icons ul li a{
+  background-color: rgb(228, 227, 227);
+  padding: 4px 8px;
+  border-radius: 50px;
+
+}
+.my_name{
+  display: none;
+}
+
+
+
